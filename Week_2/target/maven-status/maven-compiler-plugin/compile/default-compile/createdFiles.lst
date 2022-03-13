@@ -1,0 +1,4 @@
+com\geekbang\week2\mapreduce\pojo\FlowBean.class
+com\geekbang\week2\mapreduce\DataFlowCounts.class
+com\geekbang\week2\mapreduce\reducer\DataFlowReducer.class
+com\geekbang\week2\mapreduce\mapper\DataFlowMapper.class
