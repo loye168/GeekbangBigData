@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-
+//测试提交
 public class DataFlowCounts {
     public static void main(String[] args) throws Exception {
         System.out.println("star runing");
@@ -22,7 +22,7 @@ public class DataFlowCounts {
         Job job = Job.getInstance(new Configuration(),"flow");
         //加载jar包
         job.setJarByClass(DataFlowCounts.class);
-            //关联map
+          //关联map
         job.setMapperClass(DataFlowMapper.class);
         //关联reduce
         job.setReducerClass(DataFlowReducer.class);
