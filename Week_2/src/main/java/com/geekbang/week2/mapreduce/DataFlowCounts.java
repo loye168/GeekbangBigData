@@ -22,7 +22,7 @@ public class DataFlowCounts {
         Job job = Job.getInstance(new Configuration(),"flow");
         //加载jar包
         job.setJarByClass(DataFlowCounts.class);
-        //关联map
+            //关联map
         job.setMapperClass(DataFlowMapper.class);
         //关联reduce
         job.setReducerClass(DataFlowReducer.class);
